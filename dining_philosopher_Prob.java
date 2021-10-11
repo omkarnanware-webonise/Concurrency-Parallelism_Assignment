@@ -1,9 +1,8 @@
-package array;
 
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class Main {
+public class dining_philosopher_Prob{
 
     static int philosopher = 5;
     static philosopher philosophers[] = new philosopher[philosopher];
@@ -72,7 +71,7 @@ public class Main {
 
     }
 
-    public static void main(String argv[]) {
+    public static void main(String args[]) {
 
         for (int i = 0; i < philosopher; i++) {
             chopsticks[i] = new chopstick();
